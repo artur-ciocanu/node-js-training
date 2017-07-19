@@ -1,0 +1,12 @@
+# NodeJS Streams
+- Why NodeJS streams
+- Type of streams: Readable, Writable, Duplex and Transform
+- Streams and `fs` module
+- Example reading a file via fs.createReadStream(), using `data` and `end` events
+- HTTP module
+- Making a simple request
+- Example of https module retrieving page from Wikipedia: `https.request(options, res)`, where res is a readable stream. NOTE: `req.end()` needs to be invoked ALWAYS
+- Example creating HTTP server, `res.writeHead()` to send headers, `res.end()` to send content
+- Example serving files via HTTP, HTML with CSS and images
+- Example JSON API
+- Example collecting POST data
