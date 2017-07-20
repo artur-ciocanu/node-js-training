@@ -6,7 +6,7 @@ function handler(req, res) {
         res.end(`
             <html>
                 <head>
-                    <title>Example HTML</title>
+                    <title>Example HTML from NodeMon</title>
                 </head>
                 <body>
                     <p>${req.url}</p>
