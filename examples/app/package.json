@@ -1,0 +1,14 @@
+{
+  "name": "app-testing",
+  "scripts": {
+    "test": "istanbul cover -x 'lib/**' -x 'sample/**' -x 'src/**/*.spec.js' --include-all-sources jasmine && istanbul report clover",
+    "custom": "echo 'bla'"
+  },
+  "devDependencies": {
+    "cookie-parser": "^1.4.3",
+    "eslint": "^3.19.0",
+    "express": "^4.14.0",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.6.0"
+  }
+}

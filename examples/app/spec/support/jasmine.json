@@ -1,0 +1,10 @@
+{
+  "spec_dir": "src",
+  "spec_files": [
+    "spec/**/*[sS]pec.js",
+    "common/spec/**/*[sS]pec.js",
+    "target/spec/**/*[sS]pec.js",
+    "visitor/spec/**/*[sS]pec.js"
+  ]
+}
+

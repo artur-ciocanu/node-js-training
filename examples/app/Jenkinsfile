@@ -1,0 +1,9 @@
+stages {
+    stage("checkout") {
+        git scm ....
+    }
+
+    stage("build") {
+        .....
+    }
+}
